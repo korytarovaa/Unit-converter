@@ -35,10 +35,4 @@ function converter(){
 
 
 convertBtn.addEventListener("click", converter)
-convertBtn.document.querySelector('#txtSearch').addEventListener("keypress", (event)=> {
-    if (event.keyCode === 13) { // key code of the keybord key
-        event.preventDefault();
-        converter
-    }
-  });
 
